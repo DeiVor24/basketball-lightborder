@@ -1,0 +1,85 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.scoreboard {  
+    width: 100%;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.twoTeams{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 50px;
+    background-color: rgb(222, 192, 124);
+    border: 5px solid red;
+}
+
+.img{
+width: 150px;
+height: 120px;
+
+}
+.team { 
+    height: 300px;
+    font-size: 1rem; 
+    padding: 3px;  
+}
+
+
+.dots {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; 
+}
+
+
+.btn { 
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color:white;
+    transition: 0.1s;  
+}
+.btn:hover{
+    color:red; 
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;   
+}
+.btnScore{
+    width: 100%;
+    font-size: 100px;   
+}
+
+.reset {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    transition: 0.1s;
+    padding: 15px;  
+}
+.reset:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnReset { 
+   width: 100%;
+}
