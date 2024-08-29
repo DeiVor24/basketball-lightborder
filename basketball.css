@@ -22,7 +22,8 @@ body{
     position: relative;
 }
 .twoTeams{
-    width: 60%;
+    width: 1000px;
+    margin: 80px;
     height: 400px;
     display: flex;
     justify-content: space-evenly;

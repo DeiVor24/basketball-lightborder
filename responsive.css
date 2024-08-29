@@ -1,0 +1,16 @@
+
+@media (max-width: 1277px) {
+    .twoTeams{
+        width: 800px;
+        margin: 80px calc(50% - 400px);
+    }
+}
+
+@media (max-width: 860px) {
+    .twoTeams {
+        width: 700px;
+        margin: 80px calc(50% - 350px);
+    }
+}
+
+
